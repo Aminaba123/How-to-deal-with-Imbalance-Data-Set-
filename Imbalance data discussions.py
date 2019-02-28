@@ -88,8 +88,11 @@ they are already incorporated into F-measure, and excess metrics complicate meth
 Micro averaging are sensitive to class imbalance: if your method, for example, works good for the most common labels and totally messes others,
 micro-averaged metrics show good results
 
+Weighting averaging isn't well suited for imbalanced data, because it weights by counts of labels. Moreover, 
+it is too hardly interpretable and unpopular: for instance, there is no mention of such an averaging in the following 
+very detailed survey I strongly recommend to look through
 
-
+                              
 
 
 
